@@ -1,2 +1,2 @@
 console.log("this is a change by GIT");
-console.log("update");
+console.log("update 2");
