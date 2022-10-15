@@ -1,10 +1,10 @@
-/* //Os module
+/*  //Os module
 const Os=require('os'); //built-in module
 const user=Os.userInfo();
 console.log(user)
 const time =Os.uptime();
 console.log(time);
-console.log(`random ${Os.hostname}`); */
+console.log(`random ${Os.hostname}`);  */
 
 /* //Path module
 const path=require('path');
@@ -13,7 +13,8 @@ const filePath=path.join('file','insideFile','file.js'); //link and give u a fil
 console.log(filePath);
 console.log(path.basename(filePath)); //gives you the last file name
 const absolute =path.resolve(__dirname,filePath);
-console.log(absolute); */
+console.log(absolute);
+ */
 
 
 //fs module  (SYNC)
@@ -54,10 +55,12 @@ readFile('./file/insideFile/test1.txt','utf-8',(eree,result)=>{
 console.log("starting the next task"); */
 
 //HTTP module (intro)
-const http = require('http')
+/* const http = require('http')
 const server = http.createServer((req,res)=>{
     console.log(req.url);
     res.write('this is my server YAHOOOOO!')
     res.end()
 })
-server.listen(5000)
+server.listen(5000) */
+
+//NPM 
